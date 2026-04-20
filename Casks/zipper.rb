@@ -1,6 +1,6 @@
 cask "zipper" do
-  version "1.0"
-  sha256 "bcd0a76cdd2d601d807fdfbc6882d6a2c03793f18487c0d78819b0a1920f3d6f"
+  version "1.0.1"
+  sha256 "67c24e02d10a790ec5af7e37b3c780badd8cb29f3beefeb0653fb7c7b155e28e"
 
   url "https://github.com/kshah00/zipper/releases/download/v#{version}/Zipper-#{version}.dmg"
   name "Zipper"
@@ -11,6 +11,6 @@ cask "zipper" do
 
   zap trash: [
     "~/Library/Application Support/Zipper",
-    "~/Library/Preferences/com.kshah00.zipper.plist",
+    "~/Library/Preferences/com.kshah00.ZipperApp.plist",
   ]
 end
